@@ -33,7 +33,8 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   margin-left: 2.4em;
-  transition: 0.3 color ease; }
+  transition: 0.3 color ease;
+  border: 1px solid transparent; }
   .custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
     color: #aa0c56;
     text-decoration: underline; }
@@ -44,7 +45,13 @@ body {
   background-color: #F35CA3;
   border-radius: 2em;
   padding: 0.5em 2em;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.5s ease; }
+  .custom-nav #navbarNav .navbar-nav .nav-item .sing-up-buttom:hover {
+    color: #F35CA3;
+    border: 1px solid #F35CA3;
+    background-color: transparent;
+    text-decoration: none; }
 
 @media screen and (max-width: 992px) {
   .custom-nav {
@@ -89,5 +96,8 @@ body {
       text-align: center; }
       .custom-section h2, .custom-section h3, .custom-section p {
         text-shadow: 1px 1px 2px rgba(57, 60, 67, 0.3); }
+      .custom-section h2 {
+        font-size: 3em; }
       .custom-section h3 {
-        color: #50555f; } }
+        color: #50555f;
+        font-size: 2em; } }
